@@ -32,6 +32,7 @@ All methods are designed to be transparent, reproducible, and adaptable to other
 
 ## Repository Structure
 
+```
 nabu-project/
 │
 ├── README.md
@@ -62,7 +63,7 @@ nabu-project/
 ├── second-platform/     # Future source folder (same structure)
 ├── third-platform/      # Future source folder (same structure)
 └── fourth-platform/     # Future source folder (same structure)
-
+```
 ---
 
 ## Data Access and Ethics
