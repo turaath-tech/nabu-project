@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: "NABU Project: Networks, Antiquities, and Black-market Users"
+message: "If you use this repository, please cite it as below."
+type: dataset
+
+authors:
+  - family-name: "Leeson"
+    given-name: "Madison"
+  - family-name: "El Jinini"
+    given-name: "Yazeed"
+
+year: 2026
+
+publisher: "Turaath Tech Unipessoal, LDA"
+location: "Porto"
+
+abstract: "Data, code, and research outputs from the NABU Project, collecting and analysing data related to the online sale of Iraqi cultural goods."
+
+license: "CC-BY-4.0"
+
+repository: "https://github.com/turaath-tech/nabu-project"
+url: "https://github.com/turaath-tech/nabu-project"
+
+preferred-citation:
+  type: report
+  authors:
+    - family-name: "Leeson"
+      given-name: "Madison"
+    - family-name: "El Jinini"
+      given-name: "Yazeed"
+  year: 2026
+  title: "NABU Project: Networks, Antiquities, and Black-market Users. Quarterly Report (Q1 2026)"
+  publisher: "Turaath Tech Unipessoal, LDA"
+  location: "Porto"
