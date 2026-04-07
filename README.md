@@ -36,33 +36,34 @@ All methods are designed to be transparent, reproducible, and adaptable to other
 nabu-project/
 │
 ├── README.md
-├── LICENSE              # MIT for code
-├── DATA_LICENSE.md      # CC BY 4.0 for data
+├── LICENSE                              # MIT for code
+├── DATA_LICENSE.md                      # CC BY 4.0 for data
 ├── CITATION.cff
 ├── requirements.txt
 │
 ├── athar-sale/
 │   ├── data/
-│   │   ├── schema/      # JSON structure of the output data
-│   │   ├── processed/   # Structured output data (with personal identifying information pseudonimised and listing/image URLs removed)
+│   │   ├── schema.json                  # JSON structure of the output data
+│   │   ├── AS_output_restricted.json    # Structured output data (with personal identifying information pseudonimised and listing/image URLs removed)
 │   │
-│   ├── notebooks/       # Jupyter notebooks for Athar Sale
+│   ├── notebooks/                       # Jupyter notebooks for Athar Sale
 │   │   ├── AS_data_collection.ipynb
 │   │   ├── AS_analysis.ipynb
 │   │
-│   ├── src/             # Source code for the Athar Sale web scraper
+│   ├── src/                             # Source code for the Athar Sale web scraper
+│   │   ├── AS_data_collection.py
 │   │
-│   ├── outputs/         # Figures and tables produced by the analysis
+│   ├── outputs/                         # Figures and tables produced by the analysis
 │   │   ├── figures/
 │   │   ├── tables/
 │   │
-│   └── reports/         # Final reports produced by this research
-│       ├── athar_sale-Arabic/
-│       └── athar-sale-English/
+│   └── reports/                         # Final reports produced by this research
+│       ├── athar_sale-Arabic.pdf
+│       └── athar-sale-English.pdf
 │
-├── second-platform/     # Future source folder (same structure)
-├── third-platform/      # Future source folder (same structure)
-└── fourth-platform/     # Future source folder (same structure)
+├── second-platform/                     # Future source folder (same structure)
+├── third-platform/                      # Future source folder (same structure)
+└── fourth-platform/                     # Future source folder (same structure)
 ```
 ---
 
