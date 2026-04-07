@@ -1,1 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NABU Project Dataset Schemas",
+  "description": "Schema definition for the restricted dataset found in this repo (AS_output_restricted.json) and the unrestricted dataset (output by the data collection tool), not found in this repo as it may contain sensitive identifying information. Each dataset is a list of dictionary records.",
 
+  "type": "array",
+  "items": {
+    "type": "object",
+    "description": "A single listing record.",
+    "properties": {
+      "listing_identifier": {
+        "type": "string",
+        "description": "Unique identifier assigned to the listing (internal ID)."
+      },
+      "title": {
+        "type": "string",
+        "description": "Title of the listing as displayed on the platform."
+      },
+      "description": {
+        "type": "string",
+        "description": "Textual description of the item."
+      },
+      "obj_category": {
+        "type": "string",
+        "description": "Category assigned to the object (platform-provided)."
+      },
+      "price": {
+        "type": "string",
+        "description": "Listed price as a raw string (may be empty or non-standardised)."
+      },
+      "evaluation_certificate": {
+        "type": "boolean",
+        "description": "Indicates whether the listing claims to include an evaluation certificate."
+      },
+      "seller_name": {
+        "type": "string",
+        "description": "Seller name or pseudonimised identifier, depending on dataset version."
+      },
+      "seller_url": {
+        "type": "string",
+        "description": "Seller profile URL or pseudonomised identifier, depending on dataset version."
+      },
+      "seller_country": {
+        "type": "string",
+        "description": "Country of the seller as self-reported in the listing (often in Arabic)."
+      },
+      "seller_phone_number": {
+        "type": "string",
+        "description": "Seller phone number (partially redacted in the restricted dataset)."
+      },
+      "listing_url": {
+        "type": "string",
+        "description": "Listing URL or pseudonimised identifier, depending on dataset version."
+      },
+      "site_name": {
+        "type": "string",
+        "description": "Name of the platform where the listing was posted ('اثار')."
+      },
+      "publication_date": {
+        "type": "string",
+        "format": "date-time",
+        "description": "Timestamp when the listing was originally published."
+      },
+      "modification_date": {
+        "type": "string",
+        "format": "date-time",
+        "description": "Timestamp of the most recent modification to the listing."
+      }
+    },
+    "required": [
+      "listing_identifier",
+      "title",
+      "obj_category",
+      "evaluation_certificate",
+      "seller_name",
+      "listing_url",
+      "site_name",
+      "publication_date"
+    ]
+  }
+}
