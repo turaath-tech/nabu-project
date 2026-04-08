@@ -44,22 +44,18 @@ nabu-project/
 └── athar-sale/
     ├── data/
     │   ├── schema.json                  # JSON structure of the output data
-    │   ├── AS_output_restricted.json    # Structured output data (with personal identifying information pseudonimised and listing/image URLs removed)
+    │   └── AS_output_restricted.json    # Structured output data (with personal identifying information pseudonimised and listing/image URLs removed)
     │
     ├── notebooks/                       # Jupyter notebooks for Athar Sale
     │   ├── AS_data_collection.ipynb
-    │   ├── AS_analysis.ipynb
+    │   └── AS_analysis.ipynb
     │
     ├── src/                             # Source code for the Athar Sale web scraper
-    │   ├── AS_data_collection.py
+    │   └── AS_data_collection.py
     │
-    ├── outputs/                         # Figures and tables produced by the analysis
-    │   ├── figures/
-    │   ├── tables/
-    │
-    └── reports/                         # Final reports produced by this research
-        ├── athar_sale-Arabic.pdf
-        └── athar-sale-English.pdf
+    └── outputs/                         # Figures and tables produced by the analysis
+        ├── figures/
+        └── tables/
 ```
 ---
 
