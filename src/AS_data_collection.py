@@ -247,6 +247,8 @@ log_status(f"collecting URLs for all available objects")
 
 # takes about five minutes to collect all object URLs
 object_urls = []
+driver = chromeinit()
+
 for cat in tqdm(AUCTION_CATEGORIES):
     i = 1
     while True:
