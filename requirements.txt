@@ -1,22 +1,23 @@
 anyio==4.9.0
 appdirs==1.4.4
 arabic-buckwalter-transliteration==1.0.5
-attrs @ file:///C:/b/abs_89hmquz5ga/croot/attrs_1734533130810/work
-Automat @ file:///C:/b/abs_e6j20ekmp5/croot/automat_1743532580167/work
-bcrypt @ file:///C:/b/abs_b3ok3jhxrx/croot/bcrypt_1747402791004/work
+attrs
+Automat
+bcrypt
 beautifulsoup4==4.13.4
-brotlicffi @ file:///C:/b/abs_f4lixvzmxt/croot/brotlicffi_1736183286104/work
+brotlicffi
 bs4==0.0.2
-certifi @ file:///C:/b/abs_43o9lm92p9/croot/certifi_1750863864870/work/certifi
-cffi @ file:///C:/b/abs_29_b57if3f/croot/cffi_1736184144340/work
-charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+certifi
+cffi
+charset-normalizer
+chromedriver_autoinstaller
 colorama==0.4.6
-constantly @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/constantly_1729053406505/work
-cryptography @ file:///C:/b/abs_ae5lrkywtg/croot/cryptography_1740577842775/work
-cssselect @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/cssselect_1729047831562/work
-defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+constantly
+cryptography
+cssselect
+defusedxml
 fake-useragent==2.2.0
-filelock @ file:///C:/b/abs_758187j281/croot/filelock_1744281404850/work
+filelock
 fsspec==2025.7.0
 googletrans==4.0.2
 h11==0.16.0
@@ -26,46 +27,49 @@ httpcore==1.0.9
 httpx==0.28.1
 huggingface-hub==0.34.3
 hyperframe==6.1.0
-hyperlink @ file:///tmp/build/80754af9/hyperlink_1610130746837/work
-idna @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/idna_1729038997316/work
-incremental @ file:///croot/incremental_1743512672142/work
-itemadapter @ file:///tmp/build/80754af9/itemadapter_1626442940632/work
-itemloaders @ file:///C:/b/abs_f35dqz89dk/croot/itemloaders_1743513855167/work
-jmespath @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/jmespath_1729040936778/work
+hyperlink
+idna
+incremental
+itemadapter
+itemloaders
+jmespath
 lxml==5.3.0
 numpy==2.3.2
-packaging @ file:///C:/b/abs_3by6s2fa66/croot/packaging_1734472138782/work
-parsel @ file:///C:/Users/dev-admin/buildout/croot/parsel_1732922877478/work
-Protego @ file:///C:/b/abs_48sti5uql_/croot/protego_1746479771804/work
+packaging
+pandas
+parsel
+Protego
 psutil==7.0.0
-pyasn1 @ file:///C:/Users/dev-admin/buildout/perseverance-python-buildout/croot/pyasn1_1731744867547/work
-pyasn1_modules @ file:///C:/b/abs_12mhyss7ds/croot/pyasn1-modules_1752042911584/work
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-PyDispatcher @ file:///C:/b/abs_7bay5wbi80/croot/pydispatcher_1750159265590/work
-pyOpenSSL @ file:///C:/b/abs_6cmmt1gx_z/croot/pyopenssl_1741343840223/work
-PySocks @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/pysocks_1729039320841/work
+pyasn1
+pyasn1_modules
+pycparser
+PyDispatcher
+pyOpenSSL
+PySocks
 pywin32==308
 PyYAML==6.0.2
-queuelib @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/queuelib_1729063235364/work
+queuelib
 regex==2025.7.34
-requests @ file:///C:/b/abs_0b3h9d_724/croot/requests_1750426345668/work
-requests-file @ file:///C:/b/abs_804owi11qo/croot/requests-file_1749719355197/work
+requests
+requests-file
 safetensors==0.5.3
-Scrapy @ file:///C:/b/abs_7d5vqiajdd/croot/scrapy_1743540914951/work
-service-identity @ file:///C:/b/abs_2bq9_6ah3e/croot/service_identity_1749714991616/work
+Scrapy
+selenium==4.43.0
+service-identity
 setuptools==80.9.0
 sniffio==1.3.1
 soupsieve==2.7
-tldextract @ file:///C:/Users/dev-admin/buildout/perseverance-python-buildout/croot/tldextract_1731748362836/work
+tldextract
 tokenizers==0.21.4
-tomli @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/tomli_1729047129961/work
+tomli
 tqdm==4.67.1
 transformers==4.54.1
-Twisted @ file:///C:/b/abs_65oatfcpaw/croot/twisted_1743537791862/work
-twisted-iocpsupport @ file:///C:/b/abs_6883jqhfrn/croot/twisted-iocpsupport_1736544552637/work
-typing_extensions @ file:///C:/b/abs_0ffjxtihug/croot/typing_extensions_1734714875646/work
-urllib3 @ file:///C:/b/abs_393g1ayee_/croot/urllib3_1750775481226/work
-w3lib @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/w3lib_1729052333042/work
+Twisted
+twisted-iocpsupport
+typing_extensions
+urllib3
+w3lib
+webdriver_manager
 wheel==0.45.1
-win_inet_pton @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/win_inet_pton_1729038644686/work
-zope.interface @ file:///C:/Users/dev-admin/buildout/croot/zope.interface_1735850995906/work
+win_inet_pton
+zope.interface
