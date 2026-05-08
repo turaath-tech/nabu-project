@@ -153,6 +153,7 @@ def robust_get(url, max_attempts=3):
     '''
     for attempt in range(1, max_attempts + 1):
         try:
+            time.sleep(2)
             driver.get(url)
             return True
         except TimeoutException:
