@@ -25,6 +25,7 @@ The NABU Project applies established computational research methods, including:
 - Quantitative analysis of listing trends and object characteristics
 - Comparative analysis of object images
 - Pattern detection for identifying suspicious or high-risk activity
+- Geospatial analysis (KDE, Nearest Neighbour Analysis)
 
 All methods are designed to be transparent, reproducible, and adaptable to other datasets and regions.
 
@@ -50,7 +51,7 @@ nabu-project/
     │
     ├── notebooks/                       # Jupyter notebooks for Athar Sale
     │   ├── AS_data_collection.ipynb
-    │   ├── AS_analysis.ipynb            # Q1 analysis
+    │   ├── AS_analysis-Q1.ipynb            # Q1 analysis
     │   ├── AS_analysis-Q2.ipynb         # Q2 analysis
     │   └── iraq_keywords.ipynb          # notebook for outputting diagnostic keywords
     │
