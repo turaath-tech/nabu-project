@@ -48,7 +48,9 @@ nabu-project/
     │
     ├── notebooks/                       # Jupyter notebooks for Athar Sale
     │   ├── AS_data_collection.ipynb
-    │   └── AS_analysis.ipynb
+    │   ├── AS_analysis.ipynb            # Q1 analysis
+    │   ├── AS_analysis-Q2.ipynb         # Q2 analysis
+    │   └── iraq_keywords.ipynb          # notebook for outputting diagnostic keywords
     │
     ├── src/                             # Source code for the Athar Sale web scraper
     │   └── AS_data_collection.py
