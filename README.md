@@ -44,7 +44,9 @@ nabu-project/
 └── athar-sale/
     ├── data/
     │   ├── schema.json                  # JSON structure of the output data
-    │   └── AS_output_restricted.json    # Structured output data (with personal identifying information pseudonimised and listing/image URLs removed)
+    │   ├── AS_output_restricted.json    # Structured output data (with personal identifying information pseudonimised and listing/image URLs removed)
+    │   ├── keywords.json                # Keyword dictionaries for retrieving listings of likely Iraqi provenience
+    │   └── negative_keywords.json       # Negative keywords for filtering out inauthentic cultural goods
     │
     ├── notebooks/                       # Jupyter notebooks for Athar Sale
     │   ├── AS_data_collection.ipynb
