@@ -299,3 +299,4 @@ if len(error_pages) > 0:
     log_status("couldn't collect data from the following URLs due to persistent errors:", error_pages)
 
 log_status(f'finished scraping; final data available at {FILENAME}')
+driver.quit()
